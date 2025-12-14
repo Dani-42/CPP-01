@@ -64,7 +64,6 @@ void	Harl::complain(std::string level) {
 	switch (levelIndex){
 		case 0:
 			this->debug();
-			// fall through
 		case 1:
 			this->info();
 			// fall through
